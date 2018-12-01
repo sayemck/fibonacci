@@ -1,0 +1,19 @@
+<script language="javascript">
+function fibonacci(num){
+ var a=1, b=0, lipi;
+ var z="";
+ while(num>=0){
+	 lipi =a;
+	 a=a+b;
+	 b=lipi;
+	 z+=b+"";
+	 num--;
+	 }
+	 alert(z);
+	 return b;
+}
+
+var x=prompt("Enter Number");
+y=fibonacci(x);
+alert(y);
+</script>
